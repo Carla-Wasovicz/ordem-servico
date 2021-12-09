@@ -1,0 +1,28 @@
+package br.edu.ifms.ordemservico.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tb_ordem_de_servico")
+public class OrdemDeServico implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String equipamento;
+	private String patrimonio;
+	private String setor;
+	private String descricaoProblema;
+	private Date dataCadastro;
+	private Status status;
+	private Prioridade prioridade;
+	private String descricaoSolucao;
+	private Servidor servidor;
+}

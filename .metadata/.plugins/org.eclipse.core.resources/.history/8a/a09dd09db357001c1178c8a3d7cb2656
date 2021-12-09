@@ -1,0 +1,5 @@
+package br.edu.ifms.ordemservico.services;
+
+public class OrdemDeServicoService {
+
+}

@@ -1,0 +1,28 @@
+package br.edu.ifms.ordemservico.services;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.edu.ifms.ordemservico.dto.ServidorDTO;
+import br.edu.ifms.ordemservico.entities.Servidor;
+import br.edu.ifms.ordemservico.repositories.ServidorRepository;
+
+@Service
+public class ServidorService {
+	
+	@Autowired
+	private ServidorRepository repository;
+	
+	public List<ServidorDTO> findAll(){
+		List<Servidor> list = repository.findAll();
+		return list.stream().map(servidor -> new ServidorDTO(servidor))
+				.collect(Collectors.toList());
+	}
+	//findById
+	//insert
+	//update
+	//delete
+}

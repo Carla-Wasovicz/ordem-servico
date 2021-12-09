@@ -1,0 +1,5 @@
+package br.edu.ifms.ordemservico.resources.exceptions;
+
+public class StandardError {
+
+}

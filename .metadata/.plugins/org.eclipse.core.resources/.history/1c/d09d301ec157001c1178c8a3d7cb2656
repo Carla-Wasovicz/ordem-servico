@@ -1,0 +1,8 @@
+package br.edu.ifms.ordemservico.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class OrdemDeServicoService {
+
+}
