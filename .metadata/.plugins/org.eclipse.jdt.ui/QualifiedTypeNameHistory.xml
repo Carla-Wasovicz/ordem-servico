@@ -20,13 +20,11 @@
     <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.repositories.ServidorRepository"/>
     <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.repositories.OrdemDeServicoRepository"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="org.springframework.web.client.ResourceAccessException"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
     <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.entities.Servidor"/>
     <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.entities.OrdemDeServico"/>
-    <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.services.exceptions.ResourceNotFoundException"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityNotFoundException"/>
     <fullyQualifiedTypeName name="org.springframework.dao.EmptyResultDataAccessException"/>
     <fullyQualifiedTypeName name="org.springframework.dao.DataIntegrityViolationException"/>
@@ -37,8 +35,21 @@
     <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.services.ServidorService"/>
     <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.services.OrdemDeServicoService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.dto.ServidorDTO"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.dto.ServidorDTO"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.support.ServletUriComponentsBuilder"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.AutoConfigurationPackage"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.dto.OrdemDeServicoDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.edu.ifms.ordemservico.services.exceptions.ResourceNotFoundException"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.Email"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="javax.validation.Valid"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
 </qualifiedTypeNameHistroy>

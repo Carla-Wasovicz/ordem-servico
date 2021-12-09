@@ -61,6 +61,7 @@ class Login extends React.Component {
                                             value={this.state.email}
                                             onChange={e => this.setState({email: e.target.value})} />
                                     </FormGroup>
+
                                     <FormGroup label="Senha: *" htmlFor="inputSenha">
                                         <input type="password" className="form-control"
                                             id="exampleInputPassword1"
@@ -68,6 +69,7 @@ class Login extends React.Component {
                                             value={this.state.senha}
                                             onChange={e => this.setState({senha: e.target.value})} />
                                     </FormGroup>
+                                    
                                     <button type="button" className="btn btn-primary"
                                         style={{ margin: '5px 5px 0 0' }}
                                         onClick={this.acessar}>Acessar</button>
