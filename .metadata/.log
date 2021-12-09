@@ -1171,3 +1171,15 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:12:07.359
 !MESSAGE executing callback sts4.classpath.dAokjVBR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:36:36.556
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dAokjVBR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:36:36.659
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dAokjVBR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:36:36.659
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:36:36.659
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dAokjVBR => OK
