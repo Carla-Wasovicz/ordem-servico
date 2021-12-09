@@ -1,0 +1,8 @@
+package br.edu.ifms.ordemservico.config;
+
+public class Snippet {
+	public static void main(String[] args) {
+		java.runtime.version=11
+	}
+}
+
